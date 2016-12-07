@@ -8,7 +8,8 @@ Is wat wij willen haalbaar en zo ja:
 Hoe implementeren we deze functionaliteit, moeten we dit compleet zelf bouwen of kunnen we gebruik maken van een bestaand script, API?
 Wat hebben we nodig, wat moet de developer weten?
 
-Hoe heb ik onderzoek aangepakt? 
+Hoe heb ik onderzoek aangepakt?
+
 Dmv van deskresearch heb ik het bovenstaande technische aspect onderzocht van de toekomstige applicatie. 
 Ik kwam verschillende websites tegen met informatie en tutorials.
 
@@ -29,6 +30,7 @@ Belangrijk:
 Push notificaties betekent dat er goede beveiliging moet zijn, omdat je niet wil dat iemand anders push notificaties kan sturen naar gebruikers. Dit betekent dat er nog wel wat meer werk bij komt kijken om alles te configureren. (SSL certificaat)
 
 Conclusie: antwoord op wat je wilde weten -tot-nu-toe-
+
 Ja het is haalbaar, we hoeven niet alles zelf te bouwen.
 Onderstaande websites (inhoud) zijn nodig:
 https://www.raywenderlich.com/123862/push-notifications-tutorial (Beschreven in duidelijke stappen wat te doen!)
