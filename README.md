@@ -1,7 +1,5 @@
-# E-health
+# E-health POC
 Technical content for project E-health CMD (research)
-
-POC
 
 Inleiding, wat wil je weten?
 
