@@ -1,19 +1,19 @@
 # E-health POC
 Technical content for project E-health CMD (research)
 
-Inleiding, wat wil je weten?
+<b>Inleiding, wat wil je weten?</b>
 
 Ik wil weten hoe we pushnotificaties vanuit de app naar het mobiele device van de gebruiker kunnen sturen (voor ons iOS).
 Is wat wij willen haalbaar en zo ja:
 Hoe implementeren we deze functionaliteit, moeten we dit compleet zelf bouwen of kunnen we gebruik maken van een bestaand script, API?
 Wat hebben we nodig, wat moet de developer weten?
 
-Hoe heb ik onderzoek aangepakt?
+<b>Hoe heb ik onderzoek aangepakt?</b>
 
 Dmv van deskresearch heb ik het bovenstaande technische aspect onderzocht van de toekomstige applicatie. 
 Ik kwam verschillende websites tegen met informatie en tutorials.
 
-Wat zijn de resultaten?
+<b>Wat zijn de resultaten?</b>
 
 Wat kan je met een push notificatie:
 -Een kort tekstbericht laten zien
@@ -29,7 +29,7 @@ Wat kan je met een push notificatie:
 Belangrijk:
 Push notificaties betekent dat er goede beveiliging moet zijn, omdat je niet wil dat iemand anders push notificaties kan sturen naar gebruikers. Dit betekent dat er nog wel wat meer werk bij komt kijken om alles te configureren. (SSL certificaat)
 
-Conclusie: antwoord op wat je wilde weten -tot-nu-toe-
+<b>Conclusie: antwoord op wat je wilde weten -tot-nu-toe-</b>
 
 Ja het is haalbaar, we hoeven niet alles zelf te bouwen.
 Onderstaande websites (inhoud) zijn nodig:
