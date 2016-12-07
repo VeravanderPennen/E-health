@@ -3,7 +3,7 @@ Technical content for project E-health CMD (research)
 
 Inleiding, wat wil je weten?
 
-Ik wil weten hoe we pushnotificaties vanuit de app naar het mobiele device van de gebruiker kunnen sturen (voor ons Ios).
+Ik wil weten hoe we pushnotificaties vanuit de app naar het mobiele device van de gebruiker kunnen sturen (voor ons iOS).
 Is wat wij willen haalbaar en zo ja:
 Hoe implementeren we deze functionaliteit, moeten we dit compleet zelf bouwen of kunnen we gebruik maken van een bestaand script, API?
 Wat hebben we nodig, wat moet de developer weten?
