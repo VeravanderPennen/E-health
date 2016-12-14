@@ -34,3 +34,18 @@ Onderstaande websites (inhoud) zijn nodig:
 - https://developers.google.com/cloud-messaging/ (iOS, Android, web: chrome, firefox, opera. GCM/FCM)</br>
 - https://www.quora.com/Push-Notifications/Push-Notifications-Which-is-best-to-use-Amazon-SNS-Google-Cloud-Messaging-or-Parse-Why (comparing)</br>
 - http://stackoverflow.com/questions/17262511/how-do-ios-push-notifications-work (see img)</br>
+
+<b>Tentamenvragen</b>
+1. Waarom is veiligheid, security, belangrijk met betrekking tot sturen van push notificaties naar je gebruiker? En wat is er nodig om deze security te realiseren?
+    http://www.w3.org/TR/push-api/#dfn-push-message
+    "User agents must implement the Push API to be HTTPS-only. SSL-only support provides better protection for the user against man-in-the-middle attacks intended to obtain push subscription data. Browsers may ignore this rule for development purposes only."
+    
+2. Noem minimaal drie mogelijkheden/eigenschappen van een push notificatie.
+   https://www.raywenderlich.com/123862/push-notifications-tutorial
+   "In iOS 9, push notifications can:
+- Display a short text message
+- Play a notification sound
+- Set a badge number on the app’s icon
+- Provide actions the user can take without opening the app
+- Be silent, allowing the app to wake up in the background and perform a task"
+   
