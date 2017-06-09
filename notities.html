@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="nl">
+ <head>
+  <meta charset="utf-8">
+  <title>Beheer MisofoMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <header>
+  <h1>Beheer MisofoMe</h1>
+  <img src="img/amc_logo.png" class="logo"/>
+ </header>
+  <nav>
+   <ul>
+    <li><a href="index.html"  id="menuItem1">Dashboard</a></li>
+    <li><a href="oefeningen.html"  id="menuItem2">Kaarten</a></li>
+    <li><a href="notities.html" id="menuItem3">Notitie maken</a></li>
+   </ul>
+  </nav>
+   <main class="mainNotitie">
+   <form>
+   <input type="text" placeholder='Naam' class="naamInput">
+   <input type="date" placeholder='Datum'>
+    <textarea maxlength="500" placeholder='Typ hier een opmerking of iets om te onthouden.'></textarea>
+    <div>
+     <input type='submit' value='Opslaan'>
+    </div>
+   </form>
+   </main>
+   <div class='notities' id="notitie">
+    <h3>Notities</h3>
+     <ul>
+      <li>
+        <h4>Let op</h4>
+         <p class='metadataNotitie' id="notitieDatum">10-01-2017</p>
+         <p class='metadataNotitie'>Vera</p>
+         <p class='bericht'>Oefening blabla van die en die even in de gaten houden want.</p>
+      </li>
+      <li>
+        <h4>Kaart verwijderd</h4>
+         <p class='metadataNotitie' id="notitieDatum">11-12-2016</p>
+         <p class='metadataNotitie'>Rijk</p>
+        <p class='bericht'>Ik heb de kaart van Vera verwijderd, want het is een slechte oefening.</p>
+      </li>
+     </ul>
+    </div>
+  </div>
+  <script src="sorttable.js"></script>
+  <script src="script.js"></script>
+ </body>
+</html>

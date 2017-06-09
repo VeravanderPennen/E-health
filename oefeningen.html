@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="nl">
+ <head>
+  <meta charset="utf-8">
+  <title>Beheer MisofoMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <header>
+  <h1>Beheer MisofoMe</h1>
+  <img src="img/amc_logo.png" class="logo"/>
+ </header>
+  <nav>
+   <ul>
+    <li><a href="index.html"  id="menuItem1">Dashboard</a></li>
+    <li><a href="oefeningen.html"  id="menuItem2">Kaarten</a></li>
+    <li><a href="notities.html" id="menuItem3">Notitie maken</a></li>
+   </ul>
+  </nav>
+   <main>
+    <table class="sortable" id='kaarten'>
+     <tr class="oefeningBalk">
+      <th id="oefening">
+        Nr.
+      </th>
+      <th>
+       Naam
+      </th>
+      <th>
+       Auteur
+      </th>
+      <th>
+       Datum
+      </th>
+      <th>
+       Opties
+      </th>
+     </tr>
+      <tr class="oefeningData">
+       <td id="oefening">
+        1
+       </td>
+       <td class="name">
+        Ontspanningsoefening
+       </td>
+       <td class="auteur">
+        Vera
+       </td>
+       <td>
+        13-10-2016
+       </td>
+       <td>
+        <img src="img/lock_open.png"/>
+        <img src="img/delete.png"/>
+        <img src="img/edit.png"/>
+       </td>
+      </tr>
+      <tr class="oefeningData">
+       <td id="oefening">
+        2
+       </td>
+       <td class="name">
+        Associatie-oefening
+       </td>
+       <td class="auteur">
+        Rijk
+       </td>
+       <td>
+        03-01-2016
+       </td>
+       <td>
+        <img src="img/lock_open.png"/>
+        <!--<img src="/img/lock_closed.svg"/>-->
+        <img src="img/delete.png"/>
+        <img src="img/edit.png"/>
+       </td>
+      </tr>
+     </div>
+    </table>
+   </main>
+   <aside>
+   <h3>Verwijderde kaarten</h3>
+    <ul>
+     <li><p>Slechte oefening</p><img src="img/delete_forever.png"/><img src="img/restore.png"/></li>
+     <li><p>Vreselijke oefening</p><img src="img/delete_forever.png"/><img src="img/restore.png"/></li>
+    </ul>
+   </aside>
+  </div>
+  <script src="sorttable.js"></script>
+  <script src="script.js"></script>
+ </body>
+</html>
